@@ -2,7 +2,7 @@ require 'minitest/autorun'
 require 'json-schema'
 require 'json'
 
-SCHEMA_FILE = File.join(File.dirname(File.expand_path(__FILE__)) , 'schema', 'recipes.json')
+SCHEMA_FILE = File.join(File.dirname(File.expand_path(__FILE__)) , 'schema', 'recipe.json')
 RECIPES_PATH = File.join(File.dirname(File.expand_path(__FILE__)) , 'recipes')
 schema = File.open(SCHEMA_FILE) { |f| JSON.parse(f.read) }
 

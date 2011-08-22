@@ -28,7 +28,7 @@
       "description":"The recipe himself",
       "maxLength": 160,
       "required":true
-    }
+    },
     "created_at": {
       "description": "Date the object was created. Never changes afterwards",
       "format":"date",

@@ -1,5 +1,3 @@
-[![Build Status](http://travis-ci.org/mkorfmann/NerdPursuit.png)](http://travis-ci.org/mkorfmann/NerdPursuit)
-
 Everybody loves recipes, but none of those let nerdism shine.
 
 ## Participate

@@ -1,0 +1,44 @@
+{
+  "type": "object",
+  "title": "Recipe",
+  "description":"A Recipe",
+  "name": "Recipe",
+  "properties":{
+    "id": {
+      "description": "uuid of the recipe, reserved if data is used in db.",
+      "identity":true,
+      "readonly":true,
+      "type":"string"
+    },
+    "category":{
+      "type":"string",
+      "description":"The recipe category",
+      "maxLength": 30,
+      "required":true
+    },
+    "nerd_level":{
+      "type":"number",
+      "description":"Difficulty level, real nerds score higher.",
+      "minimum": 0,
+      "maximum": 5,
+      "required":true
+    },
+    "text":{
+      "type":"string",
+      "description":"The recipe himself",
+      "maxLength": 160,
+      "required":true
+    }
+    "created_at": {
+      "description": "Date the object was created. Never changes afterwards",
+      "format":"date",
+      "readonly":true,
+      "type":"string"
+    },
+    "created_by": {
+      "description": "Name of the person who supplied the recipe",
+      "readonly":true,
+      "type":"string"
+    }
+  }
+}

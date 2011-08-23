@@ -1,3 +1,4 @@
+require 'rubygems'
 require 'minitest/autorun'
 require 'json-schema'
 require 'json'
@@ -10,10 +11,9 @@ describe 'recipe' do
   Dir["#{RECIPES_PATH}/**/*\.*"].each do |file|
     it "#{file.sub(/(\..*$)/,'').sub(/^#{RECIPES_PATH}/,'')} contains valid json" do
 
-
       begin
         question = File.open(file) { |f| JSON.parse(f.read) }['recipe']
-        JSON::Validator.validate!(schema, question, version: :draft3 )
+        JSON::Validator.validate!(schema, question, :version => :draft3 )
       rescue JSON::Schema::ValidationError => schema_error
          assertion =  false, schema_error.message
       rescue JSON::ParserError => parser_error

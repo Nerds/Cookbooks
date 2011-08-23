@@ -26,8 +26,13 @@
     "ingredients":{
       "type":"array",
       "items":{
-        "type":"string"
-      }
+        "type":"object",
+        "items":{
+          "quantity":{"type":"integer"},
+          "unit":{"type":"string"},
+          "name":{"type":"string"}
+        }
+      },
       "description":"An array of ingredients.",
       "required":true
     },

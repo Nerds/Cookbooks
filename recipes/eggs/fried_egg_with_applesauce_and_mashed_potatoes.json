@@ -8,9 +8,9 @@
     "created_at": "2011-08-22",
     "created_by": "koos",
 		"ingredients" : [
-		 { "amount": 3, "name": "eggs", "unit":"piece"},
-		 { "amount": 250, "name": "applesauce", "unit":"g"}
-		 { "amount": 250, "name": "mashed potatoes", "unit":"g"}		
+		 { "amount": 3, "name": "eggs", "unit":"piece", "required" => "true"},
+		 { "amount": 250, "name": "applesauce", "unit":"g", "required" => "false"}
+		 { "amount": 250, "name": "mashed potatoes", "unit":"g", "required" => "true"}		
 		]
   }
 }

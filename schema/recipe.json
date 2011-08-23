@@ -27,6 +27,20 @@
       "maximum": 5,
       "required":true
     },
+    "ingredients":{
+      "type":"array",
+      "items":{
+        "type":"object",
+        "items":{
+          "quantity":{"type":"integer"},
+          "unit":{"type":"string"},
+          "name":{"type":"string"},
+          "required":{"type":"boolean"},
+        }
+      },
+      "description":"An array of ingredients.",
+      "required":true
+    },
     "preparation":{
       "type":"string",
       "description":"The preparation of the recipe himself",

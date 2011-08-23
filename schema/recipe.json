@@ -10,6 +10,10 @@
       "readonly":true,
       "type":"string"
     },
+    "photo_url": {
+      "description": "a url of a picture",
+      "type":"string"
+    },
     "category":{
       "type":"string",
       "description":"The recipe category",
@@ -23,22 +27,24 @@
       "maximum": 5,
       "required":true
     },
-    "text":{
+    "preparation":{
       "type":"string",
-      "description":"The recipe himself",
+      "description":"The preparation of the recipe himself",
       "maxLength": 160,
       "required":true
     },
     "created_at": {
       "description": "Date the object was created. Never changes afterwards",
       "format":"date",
-      "readonly":true,
       "type":"string"
     },
     "created_by": {
       "description": "Name of the person who supplied the recipe",
-      "readonly":true,
       "type":"string"
-    }
+    },
+    "name": {
+      "description": "Name of the recipe",
+      "type":"string"
+    }		
   }
 }

@@ -1,0 +1,16 @@
+{ "recipe" : {
+    "id": "",
+    "category": "eggs",
+    "nerd_level": 1,
+    "photo_url":"",
+    "text": "",
+		"name": "fried egg with applesauce and mashed potatoes",
+    "created_at": "2011-08-22",
+    "created_by": "koos",
+		"ingredients" : [
+		 { "amount": 3, "name": "eggs", "unit":"piece"},
+		 { "amount": 250, "name": "applesauce", "unit":"g"}
+		 { "amount": 250, "name": "mashed potatoes", "unit":"g"}		
+		]
+  }
+}

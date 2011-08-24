@@ -1,0 +1,50 @@
+{
+    "recipe": {
+        "id": "",
+        "category": "stuff",
+        "nerd_level": 1,
+        "photo_url": "",
+        "preparation": "pre-heat your oven to 50 °C. mix flour, salt, sugar and dry yeast. add warm water and oil and knead until good; you might probably add some more flour to make the dough less gluey. spinkle some flour into a bowl, put the dough on it, and sprinkle it again with flour. cover the bowl with a wet towel, switch off the oven and put the bowl in it for 30 minutes. knead and roll out the dough real thin. et voilà.",
+        "name": "pizza dough",
+        "created_at": "2011-08-24",
+        "created_by": "tmschndr",
+        "ingredients": [
+            {
+                "amount": 200,
+                "name": "flour",
+                "unit": "g",
+                "required": "true"
+            },
+            {
+                "amount": 100,
+                "name": "warm water",
+                "unit": "ml",
+                "required": "true"
+            },
+            {
+                "amount": 2,
+                "name": "oil",
+                "unit": "spoon",
+                "required": "true"
+            },
+            {
+                "amount": 1,
+                "name": "salt",
+                "unit": "smallspoon",
+                "required": "true"
+            },
+            {
+                "amount": 0.8,
+                "name": "sugar",
+                "unit": "smallspoon",
+                "required": "true"
+            },
+            {
+                "amount": 1,
+                "name": "dry yeast",
+                "unit": "sachet",
+                "required": "true"
+            }
+        ]
+    }
+}

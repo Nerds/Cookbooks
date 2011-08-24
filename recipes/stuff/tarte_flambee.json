@@ -1,0 +1,62 @@
+{
+    "recipe": {
+        "id": "",
+        "category": "stuff",
+        "nerd_level": 1,
+        "photo_url": "http://twitpic.com/69y7st",
+        "preparation": "flour, water, oil, salt together, knead until good. chop onion and ham; flavour sour cream as you like; roll dough real thin; put stuff on it;bake in the oven",
+        "name": "tarte flambée",
+        "created_at": "2011-08-23",
+        "created_by": "kangguru",
+        "ingredients": [
+            {
+                "amount": 200,
+                "name": "flour",
+                "unit": "g",
+                "required": "true"
+            },
+            {
+                "amount": 110,
+                "name": "water",
+                "unit": "ml",
+                "required": "true"
+            },
+            {
+                "amount": 2,
+                "name": "oil",
+                "unit": "spoon",
+                "required": "true"
+            },
+            {
+                "amount": 1,
+                "name": "salt",
+                "unit": "smallspoon",
+                "required": "true"
+            },
+            {
+                "amount": 1,
+                "name": "sour cream",
+                "unit": "smallspoon",
+                "required": "true"
+            },
+            {
+                "amount": 2,
+                "name": "onion",
+                "unit": "piece",
+                "required": "true"
+            },
+            {
+                "amount": 1,
+                "name": "potato",
+                "unit": "piece",
+                "required": "false"
+            },
+            {
+                "amount": 70,
+                "name": "ham",
+                "unit": "g",
+                "required": "false"
+            }
+        ]
+    }
+}

@@ -4,7 +4,7 @@
         "category": "eggs",
         "nerd_level": 1,
         "photo_url": "",
-        "preparation": "",
+        "preparation": "Cook the potatoes. When they ready mix them with milk. Your mashed potatoes are ready. Make fried eggs with 3 eggs. Put salt and pepper into it. Then put the applesauce, the eggs and the mashed potatoes on your dish. Yummy!",
         "name": "fried egg with applesauce and mashed potatoes",
         "created_at": "2011-08-22",
         "created_by": "koos",
@@ -16,16 +16,29 @@
                 "required": "true"
             },
             {
+                "name": "salt",
+                "required": "false"
+            },
+            {
+                "name": "pepper",
+                "required": "false"
+            },
+            {
+                "name": "potatoes",
+                "amout": 3,
+                "required": "true"
+            },
+            {
+                "name": "milk",
+                "amount": 150,
+                "unit": "ml",
+                "required": "true"
+            },
+            {
                 "amount": 250,
                 "name": "applesauce",
                 "unit": "g",
                 "required": "false"
-            },
-            {
-                "amount": 250,
-                "name": "mashed potatoes",
-                "unit": "g",
-                "required": "true"
             }
         ]
     }

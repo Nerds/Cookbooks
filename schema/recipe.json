@@ -52,7 +52,7 @@
         "preparation": {
             "type": "string",
             "description": "The preparation of the recipe himself",
-            "maxLength": 160,
+            "maxLength": 1600,
             "required": true
         },
         "created_at": {

@@ -1,0 +1,57 @@
+{
+    "recipe": {
+        "id": "",
+        "category": "rice",
+        "nerd_level": 1,
+        "photo_url": "http://u1.ipernity.com/19/35/31/11313531.181bba99.1024.jpg",
+        "preparation": "Roast the garlic on oil. Then add the rice, salt, pepper. Roast it together. Pour water on the rice. Cook it for 15-20 minutes. In another pot bring the water to the boil. Then cook the broccoli. Add the parmesan to the rice. Put the rice and the broccoli on the plate and serve it with basil and parmesan. Yummy!",
+        "name": "rice with broccoli",
+        "created_at": "2011-08-28",
+        "created_by": "koos",
+        "ingredients": [
+            {
+                "amount": 250,
+                "name": "rice",
+                "unit": "g",
+                "required": "true"
+            },
+            {
+                "name": "salt",
+                "required": "false"
+            },
+            {
+                "name": "pepper",
+                "required": "false"
+            },
+            {
+                "name": "broccoli",
+                "amout": "piece",
+                "required": "true"
+            },
+            {
+                "name": "oil",
+                "amount": 1,
+                "unit": "teaspoon",
+                "required": "true"
+            },
+            {
+                "amount": 1,
+                "name": "garlic",
+                "unit": "piece",
+                "required": "true"
+            },
+            {
+                "amount": 100,
+                "name": "parmesan",
+                "unit": "g",
+                "required": "true"
+            },
+            {
+                "amount": 5,
+                "name": "basil",
+                "unit": "g",
+                "required": "false"
+            }
+        ]
+    }
+}

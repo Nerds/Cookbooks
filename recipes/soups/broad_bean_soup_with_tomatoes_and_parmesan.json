@@ -1,0 +1,77 @@
+{
+    "recipe": {
+        "id": "",
+        "category": "soups",
+        "nerd_level": 3,
+        "photo_url": "http://pozytywnakuchnia.pl/files/2010/08/Zupa_z_bobu_i_pomidorow-560x372.jpg",
+        "preparation": "1. Blanch broad beans in boiling water for few minutes. Afterwards strain, dry and peel every seed.\n2. Blanch 2 tomatoes, peel and dice them afterwards.\n3. Glaze onions on olive oil in a soup pot. When they tender, add broad beans and fry for about 5 minutes more, keep stirring.\n4. Add one teaspoon of salt and pepper, diced potatoes, and fry for 5 minutes more, still stirring.\n5. Add rice, stir.\n6. Add one tablespoon of butter and pour with broth/boiling water. Cook until rice is ready, stirring from time to time.\n7. Pour the ready soup into plates, decorate with finely cut parsley tops and lovage. Scatter parmesan over the soups.",
+        "preparation_time": 40,
+        "name": "broad bean soup with tomatoes and Parmesan",
+        "created_at": "2011-08-25",
+        "created_by": "Holek",
+        "ingredients": [
+            {
+                "amount": 500,
+                "name": "fresh broad beans",
+                "unit": "g",
+                "required": true
+            },
+            {
+                "amount": 1,
+                "name": "red onion",
+                "required": true
+            },
+            {
+                "amount": 2,
+                "name": "ripe tomatoes",
+                "required": true
+            },
+            {
+                "amount": 1,
+                "name": "small-grained rice",
+                "unit": "glass",
+                "required": true
+            },
+            {
+                "name": "butter",
+                "amount": 1,
+                "unit": "table spoon",
+                "required": true
+            },
+            {
+                "name": "olive oil",
+                "required": true
+            },
+            {
+                "amount": 1,
+                "unit": "liter",
+                "name": "vegetable broth, stock or boiling water",
+                "required": true
+            },
+            {
+                "amount": 1,
+                "unit": "teaspoon",
+                "required": true,
+                "name": "salt"
+            },
+            {
+                "amount": 1,
+                "unit": "teaspoon",
+                "required": true,
+                "name": "pepper"
+            },
+            {
+                "name": "parsley tops",
+                "required": false
+            },
+            {
+                "name": "lovage",
+                "required": false
+            },
+            {
+                "name": "grated Parmesan",
+                "required": false
+            }
+        ]
+    }
+}

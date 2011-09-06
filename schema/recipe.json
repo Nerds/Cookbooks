@@ -55,6 +55,11 @@
             "maxLength": 1600,
             "required": true
         },
+        "preparation_time": {
+            "type": "number",
+            "description": "Preparation time (in minutes)",
+            "required": false
+        },
         "created_at": {
             "description": "Date the object was created. Never changes afterwards",
             "format": "date",

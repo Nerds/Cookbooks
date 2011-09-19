@@ -11,7 +11,7 @@ Real cookers will be added as team members.
 
 ## Tech
 
-Recipes are submitted in JSON, with one question per file and must 
+Recipes are submitted in JSON, one recipe per JSON file and it must 
 align with our JSON-Schema.
 
 ## How to Cook?

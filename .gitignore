@@ -1,3 +1,6 @@
 # ignored by git:
 .project
 .settings/
+
+# ignore swap files
+*.swp

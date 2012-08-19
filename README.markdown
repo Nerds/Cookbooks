@@ -7,7 +7,7 @@ Everybody loves recipes, but none of those let nerdism shine.
 Simply fork this repo, add your recipes and send us a pull request. 
 Use the comment feature for commits and pull requests or create a ticket.
 
-Real cookers will be added as team members.
+Real chefs will be added as team members.
 
 ## Tech
 

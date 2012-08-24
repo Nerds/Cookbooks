@@ -4,7 +4,7 @@
         "category": "salads",
         "nerd_level": 2,
         "photo_url": "http://instagram.com/p/OuADL6LqtM/",
-        "preparation": "Slice tomatos the cucumber, an onion. Put it together with the rucola into a bowl. Add a bit oil, vinegar, salt, pepper and tzatziki. Slice the chicken breast into pieces and roast them for about 5-7-10 min. A white wine fit's perfectly!",
+        "preparation": "Slice tomatos the cucumber, an onion. Put it together with the rucola into a bowl. Add a bit oil, vinegar, salt, pepper, tzatziki and spread parmesan at the end. Slice the chicken breast into pieces and roast them for about 5-7-10 min. A white wine fit's perfectly!",
         "name": "Rucola with chicken roasted chicken breast",
         "created_at": "2012-08-24",
         "created_by": "koos",
@@ -55,6 +55,12 @@
                 "unit": "piece",
                 "required": "true"
             },
+            {
+                "amount": 30,
+                "name": "parmesan",
+                "unit": "gram",
+                "required": "true"
+            },            
             {
                 "amount": 1,
                 "name": "onion",

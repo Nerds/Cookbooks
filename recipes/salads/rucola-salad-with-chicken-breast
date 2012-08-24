@@ -1,0 +1,66 @@
+{
+    "recipe": {
+        "id": "",
+        "category": "salads",
+        "nerd_level": 2,
+        "photo_url": "http://instagram.com/p/OuADL6LqtM/",
+        "preparation": "Slice tomatos the cucumber, an onion. Put it together with the rucola into a bowl. Add a bit oil, vinegar, salt, pepper and tzatziki. Slice the chicken breast into pieces and roast them for about 5-7-10 min. A white wine fit's perfectly!",
+        "name": "Rucola with chicken roasted chicken breast",
+        "created_at": "2012-08-24",
+        "created_by": "koos",
+        "ingredients": [
+            {
+                "amount": 250,
+                "name": "chicken",
+                "unit": "gram",
+                "required": "true"
+            },
+            {
+                "name": "salt",
+                "required": "false"
+            },
+            {
+                "name": "pepper",
+                "required": "false"
+            },
+            {
+                "name": "vinegar",
+                "required": "true"
+            },
+            {
+                "name": "oil",
+                "required": "true"
+            },
+            {
+                "name": "tzatziki",
+                "amout": 50,
+                "unit" : "gram",
+                "required": "true"
+            },
+            {
+                "name": "rucola",
+                "amount": 1,
+                "unit": "bundle",
+                "required": "true"
+            },
+            {
+                "amount": 1/2,
+                "name": "cucumber",
+                "unit": "piece",
+                "required": "true"
+            },
+            {
+                "amount": 3,
+                "name": "tomatos",
+                "unit": "piece",
+                "required": "true"
+            },
+            {
+                "amount": 1,
+                "name": "onion",
+                "unit": "piece",
+                "required": "true"
+            }                        
+        ]
+    }
+}

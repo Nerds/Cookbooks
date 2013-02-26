@@ -1,4 +1,4 @@
-[![Build Status](http://travis-ci.org/Nerds/Cookbooks.png)](http://travis-ci.org/Nerds/Cookbooks)
+[![Build Status](https://travis-ci.org/Nerds/Cookbooks.png?branch=master)](https://travis-ci.org/Nerds/Cookbooks)
 
 Everybody loves recipes, but none of those let nerdism shine.
 
